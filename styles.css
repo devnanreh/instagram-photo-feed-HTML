@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+div {
+  border-radius: 5px;
+  margin: 1px;
+}
+
+.contenedor {
+    height: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.encabezado {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(19, 99, 223);
+    color: aliceblue;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background: rgb(6, 40, 61);
+    position: relative;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5%;
+    background: rgb(19, 99, 223);
+    width: 40%;
+    height: 40%;
+}
+
+.encabezadoFoto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    margin: 1.5%;
+    background: rgb(71, 181, 255);
+}
+
+#fecha, #tituloPost {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+h2, p {
+    border-radius: 5px;
+    margin: 0 auto;
+    background: rgb(100, 198, 236);
+}
+
+.foto {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.pieFoto {
+    display: flex;
+    align-content: flex-start;
+    width: 100%;
+    padding: 0.5%;
+    margin: 1%;
+}
